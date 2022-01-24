@@ -1,0 +1,14 @@
+/* Nota: otra forma de poner las tables horizontal, es aquì, en table.css, mandando a llamar el contener princila de ambas tables y poniendo: 
+  display: flex;
+  width: 930; - que es el breakpoint - 
+  margin: 0 auto;
+ */
+.poduct-cards--container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+.plans-container--slider {
+    justify-content: center;
+}
